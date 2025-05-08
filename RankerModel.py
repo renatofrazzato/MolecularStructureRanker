@@ -172,7 +172,7 @@ class ModelRanker:
       init = tf.global_variables_initializer()
       with tf.Session() as tf_sess:
          tf_sess.run(init)
-         #salvarParametros.restore(tf_sess, "/content/gdrive/MyDrive/Colab Notebooks/SchNetV2/SchNet_Residual/ParametrosFrazNet-QM7X-Paiwise/LUMO_energy_MSE//parameters/parameters.ckp")
+         #salvarParametros.restore(tf_sess, "...")
          for i in range(n_epochs):
             inicio = time.time()
             for r in range(n_batch_per_epoch):
