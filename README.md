@@ -1,1 +1,1 @@
-# MolecularStructureRanker
+# Molecular Structure Ranker
