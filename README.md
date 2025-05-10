@@ -1,6 +1,7 @@
 # Molecular Structure Ranker
 * Deep Learning model for molecular structure ranking based on pairwise learn to rank.
 * The model was trained using QM7-x dataset.
+* This repository provides some notebooks with examples of how to use the code.
 # How to run it?
 * You need a python enviroment with tensorflow.
 * Download the files BatchDataFunctions.py and RankerModel.py then, run the jupyter notebook file.
